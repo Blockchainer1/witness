@@ -1,20 +1,20 @@
 {
   "name": "witness",
-  "description": "Byteball witness",
-  "author": "Byteball",
-  "version": "0.1.7",
+  "description": "Dagcoin witness",
+  "author": "Dagcoin",
+  "version": "0.1.0",
   "main": "start.js",
   "keywords": [
     "witness",
-    "byteball"
+    "dagcoin"
   ],
   "license": "MIT",
   "repository": {
-    "url": "git://github.com/byteball/byteball-witness.git",
+    "url": "git://github.com/dagcoin/witness.git",
     "type": "git"
   },
   "bugs": {
-    "url": "https://github.com/byteball/byteball-witness/issues"
+    "url": "https://github.com/dagcoin/witness/issues"
   },
   "browser": {
     "request": "browser-request",
