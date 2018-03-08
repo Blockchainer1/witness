@@ -21,4 +21,4 @@ USER   dagcoin
 EXPOSE 6611
 
 #CMD [ "/bin/sh"]
-CMD [ "/bin/sh", "-c", "node start.js 2>> /dagcoin/error.log" ]
+CMD [ "/bin/sh"]
