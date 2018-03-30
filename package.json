@@ -8,6 +8,10 @@
     "witness",
     "dagcoin"
   ],
+  "scripts": {
+    "pretest": "npm run eslint",
+    "eslint": "./node_modules/eslint/bin/eslint.js --cache ./src"
+  },
   "license": "MIT",
   "repository": {
     "url": "git://github.com/dagcoin/witness.git",
@@ -23,5 +27,10 @@
   "dependencies": {
     "core": "git+https://github.com/dagcoin/core.git",
     "headless-wallet": "git+https://github.com/dagcoin/headless-wallet.git"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.5.0"
   }
 }
